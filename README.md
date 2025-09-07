@@ -1,6 +1,6 @@
 
 
-```markdown
+
 # Secure File Storage System with AES-256
 
 A robust command-line interface (CLI) application developed in Python for encrypting and decrypting local files using AES-256 encryption. This system ensures data confidentiality and integrity through strong encryption and hash-based verification.
@@ -21,7 +21,6 @@ A robust command-line interface (CLI) application developed in Python for encryp
 
 ## Project Structure
 
-```
 .
 ├── cli_app.py          # Main CLI application to interact with the storage system
 ├── file_encrypter.py   # Core encryption/decryption logic and file management
@@ -138,6 +137,3 @@ In addition to Fernet's internal HMAC verification, this application calculates 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 ```
 
----
-
-This updated version is formatted in Markdown for better readability and ease of use in most GitHub repositories or documentation systems.
