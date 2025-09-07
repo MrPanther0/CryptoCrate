@@ -14,9 +14,13 @@ A robust command-line interface (CLI) application developed in Python for encryp
 *   **Dedicated Output Directories:** Encrypted and decrypted files are neatly organized into separate directories (`encrypted_files/` and `decrypted_files/`).
 
 ## Project Structure
-- `cli_app.py` - Main CLI application to interact with the storage system
-- `file_encrypter.py` - Core encryption/decryption logic and file management
-- `storage.key` - (Generated) Your AES encryption key - KEEP THIS SECURE!
-- `metadata.json` - (Generated) Stores metadata for all encrypted files
-- `encrypted_files/` - (Generated) Directory for encrypted files (.enc)
-- `decrypted_files/` - (Generated) Directory for decrypted files
+.
+├── cli_app.py
+├── file_encrypter.py
+├── my_document.txt           # Original file
+├── storage.key               # AES encryption key (KEEP SECURE!)
+├── metadata.json             # Stores metadata for encrypted files
+├── encrypted_files/
+│   └── my_document.txt.enc   # Encrypted version
+└── decrypted_files/
+    └── my_document.txt       # Decrypted version
