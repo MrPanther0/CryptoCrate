@@ -40,8 +40,8 @@ A robust command-line interface (CLI) application developed in Python for encryp
 Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/secure-file-storage.git
-cd secure-file-storage
+git clone https://github.com/MrPanther0/CryptoCrate
+cd CryptoCrate
 ```
 
 Install dependencies:
