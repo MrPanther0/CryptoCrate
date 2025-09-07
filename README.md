@@ -20,7 +20,7 @@ A robust command-line interface (CLI) application developed in Python for encryp
 - **Dedicated Output Directories**: Encrypted and decrypted files are neatly organized into separate directories (`encrypted_files/` and `decrypted_files/`).
 
 ## Project Structure
-
+```
 .
 ├── cli_app.py          # Main CLI application to interact with the storage system
 ├── file_encrypter.py   # Core encryption/decryption logic and file management
