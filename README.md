@@ -18,9 +18,9 @@ A robust command-line interface (CLI) application developed in Python for encryp
 ├── cli_app.py
 ├── file_encrypter.py
 ├── my_document.txt           # Original file
-├── storage.key               # AES encryption key (KEEP SECURE!)
+├── storage.key               # Your AES encryption key (KEEP SECURE!)
 ├── metadata.json             # Stores metadata for encrypted files
 ├── encrypted_files/
-│   └── my_document.txt.enc   # Encrypted version
+│   └── my_document.txt.enc   # Encrypted version of my_document.txt
 └── decrypted_files/
-    └── my_document.txt       # Decrypted version
+    └── my_document.txt       # Decrypted version of my_document.txt
