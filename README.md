@@ -1,5 +1,5 @@
 
-
+#CryptoCrate
 
 # Secure File Storage System with AES-256
 
@@ -135,5 +135,5 @@ In addition to Fernet's internal HMAC verification, this application calculates 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
+
 
